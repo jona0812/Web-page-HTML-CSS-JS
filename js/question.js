@@ -14,8 +14,9 @@
 
         addPadding.classList.toggle('questions_padding-add');
 
-        questions.children[0].classList.toggle('questions_arrow-rotate')
-
+        questions.children[0].classList.toggle('questions_arrow-rotate');
+         
+        
         // si clientHeight es igual a 0, quiere decir que tiene el valor en 0
         console.log(answer.clientHeight);
         if (answer.clientHeight === 0) {
